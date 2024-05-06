@@ -1,0 +1,137 @@
+@prefix : <https://w3id.org/tekniker/public/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://emmo.info/emmo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/tekniker/public/ontology> a owl:Ontology ;
+    dcterms:contributor "SINTEF"@en,
+        "SINTEF Industry"@en ;
+    dcterms:creator "Sridevi Krishnamurthi, Simon Clark"@en ;
+    dcterms:title "Slot Die Coater-TEKNIKER domain ontology"@en ;
+    owl:imports <http://emmo.info/battery/battery-inferred> ;
+    owl:versionInfo "0.1.0"@en .
+
+:EMMO_139b71f3-65f4-5279-99c8-e61ad55fb3ae a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Waiting time (s)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom ns1:Second ],
+        ns1:EMMO_d4f7d378_5e3b_468a_baa1_a7e98358cda7 ;
+    skos:prefLabel "WaitTime"@en .
+
+:EMMO_16dd6c20-d3e2-5d0d-abf9-46ea4dd94774 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Vacumm "@en ;
+    rdfs:subClassOf ns1:EMMO_54dc83cb_06e1_4739_9e45_bc09cead7f48 ;
+    skos:prefLabel "Vaccum"@en .
+
+:EMMO_34bd9e30-7517-535f-bb93-c02c09977679 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Head position (mm)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom :EMMO_40772ac4-12e1-5059-a017-828703662aa7 ],
+        ns1:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
+    skos:prefLabel "HeadPos"@en .
+
+:EMMO_3cae370e-7e76-5b46-8dc4-c983877f9872 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Lineal speed (mm/min)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom :EMMO_227b8b14-3835-5f95-946f-ba11c7b031f5 ],
+        ns1:EMMO_81369540_1b0e_471b_9bae_6801af22800e ;
+    skos:prefLabel "LinSpeed"@en .
+
+:EMMO_51a0ee56-4e84-5f5e-8900-fa2bd52c4f71 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Final position of treatment (mm)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom :EMMO_40772ac4-12e1-5059-a017-828703662aa7 ],
+        ns1:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
+    skos:prefLabel "TreatPos"@en .
+
+:EMMO_614f6bf3-bc94-59b3-b6ed-d2ab476e8e6e a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Syringe flow rate (ml/h)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom :EMMO_58522e30-062d-5aa1-9b0f-ed8effab7fd4 ],
+        ns1:EMMO_b385b94e_ffff_47a2_8971_856f92dd786e ;
+    skos:prefLabel "SyrFlow"@en .
+
+:EMMO_62d64503-b28a-57cf-bc5e-bd0d30a4fa82 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Gap (mm)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom :EMMO_40772ac4-12e1-5059-a017-828703662aa7 ],
+        ns1:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
+    skos:prefLabel "Gap"@en .
+
+:EMMO_6eb9c15f-2f9f-567b-864c-6c0ccb6cb22d a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Coated area (cm)"@en ;
+    rdfs:comment "area unit incorrect in elucidation?"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom ns1:SquareCentiMetre ],
+        ns1:EMMO_96f39f77_44dc_491b_8fa7_30d887fe0890 ;
+    skos:prefLabel "CoatArea"@en .
+
+:EMMO_7d482903-3547-5879-b770-8f91cc5f8a7d a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Shims (mm)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom :EMMO_40772ac4-12e1-5059-a017-828703662aa7 ],
+        ns1:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
+    skos:prefLabel "Shim"@en .
+
+:EMMO_924e0a66-08d0-5ee2-866c-5a23734b2ab9 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Tension (N)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom ns1:Newton ],
+        ns1:EMMO_1f087811_06cb_42d5_90fb_25d0e7e068ef ;
+    skos:prefLabel "Tension"@en .
+
+:EMMO_ab5c9e01-d956-5082-8f78-2b5e920d41ca a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Initial Position (mm)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom :EMMO_40772ac4-12e1-5059-a017-828703662aa7 ],
+        ns1:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
+    skos:prefLabel "IniPos"@en .
+
+:EMMO_be1b8fbe-1f38-5f09-9176-964a7da44860 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Final position (mm)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom :EMMO_40772ac4-12e1-5059-a017-828703662aa7 ],
+        ns1:EMMO_6ee9304e_54b7_4594_8354_0790138dffb8 ;
+    skos:prefLabel "FinPos"@en .
+
+:EMMO_e2d09238-13b4-56f8-b77d-eeb00c272606 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Test maximun time (s)"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom ns1:Second ],
+        ns1:EMMO_d4f7d378_5e3b_468a_baa1_a7e98358cda7 ;
+    skos:prefLabel "MaxTime"@en .
+
+:EMMO_ee61dd1e-8fcc-53c0-a9aa-0e86c2deec99 a owl:Class ;
+    ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Switch off time (s) "@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569 ;
+            owl:someValuesFrom ns1:Second ],
+        ns1:EMMO_d4f7d378_5e3b_468a_baa1_a7e98358cda7 ;
+    skos:prefLabel "Switch"@en .
+
+:EMMO_227b8b14-3835-5f95-946f-ba11c7b031f5 a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    skos:prefLabel "MilliMetrePerMinute"@en .
+
+:EMMO_58522e30-062d-5aa1-9b0f-ed8effab7fd4 a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    skos:prefLabel "MilliLitrePerHour"@en .
+
+:EMMO_40772ac4-12e1-5059-a017-828703662aa7 a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    skos:prefLabel "MilliMetre"@en .
+
