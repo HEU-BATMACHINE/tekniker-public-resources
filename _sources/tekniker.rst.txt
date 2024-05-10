@@ -1,0 +1,225 @@
+
+===========
+Class Index
+===========
+
+tekniker Terms
+==============
+
+.. raw:: html
+
+   <div id="tekniker_6eb9c15f_2f9f_567b_864c_6c0ccb6cb22d"></div>
+
+CoatArea
+--------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_6eb9c15f_2f9f_567b_864c_6c0ccb6cb22d
+
+.. raw:: html
+
+  <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Comment</span></td>
+  <td class="element-table-value">area unit incorrect in elucidation?</td>
+  </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_be1b8fbe_1f38_5f09_9176_964a7da44860"></div>
+
+FinPos
+------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_be1b8fbe_1f38_5f09_9176_964a7da44860
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_62d64503_b28a_57cf_bc5e_bd0d30a4fa82"></div>
+
+Gap
+---
+
+* https://w3id.org/tekniker/public/ontology#tekniker_62d64503_b28a_57cf_bc5e_bd0d30a4fa82
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_34bd9e30_7517_535f_bb93_c02c09977679"></div>
+
+HeadPos
+-------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_34bd9e30_7517_535f_bb93_c02c09977679
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_ab5c9e01_d956_5082_8f78_2b5e920d41ca"></div>
+
+IniPos
+------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_ab5c9e01_d956_5082_8f78_2b5e920d41ca
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_3cae370e_7e76_5b46_8dc4_c983877f9872"></div>
+
+LinSpeed
+--------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_3cae370e_7e76_5b46_8dc4_c983877f9872
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_e2d09238_13b4_56f8_b77d_eeb00c272606"></div>
+
+MaxTime
+-------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_e2d09238_13b4_56f8_b77d_eeb00c272606
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_7d482903_3547_5879_b770_8f91cc5f8a7d"></div>
+
+Shim
+----
+
+* https://w3id.org/tekniker/public/ontology#tekniker_7d482903_3547_5879_b770_8f91cc5f8a7d
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_ee61dd1e_8fcc_53c0_a9aa_0e86c2deec99"></div>
+
+Switch
+------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_ee61dd1e_8fcc_53c0_a9aa_0e86c2deec99
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_614f6bf3_bc94_59b3_b6ed_d2ab476e8e6e"></div>
+
+SyrFlow
+-------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_614f6bf3_bc94_59b3_b6ed_d2ab476e8e6e
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_924e0a66_08d0_5ee2_866c_5a23734b2ab9"></div>
+
+Tension
+-------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_924e0a66_08d0_5ee2_866c_5a23734b2ab9
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_51a0ee56_4e84_5f5e_8900_fa2bd52c4f71"></div>
+
+TreatPos
+--------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_51a0ee56_4e84_5f5e_8900_fa2bd52c4f71
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_16dd6c20_d3e2_5d0d_abf9_46ea4dd94774"></div>
+
+Vaccum
+------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_16dd6c20_d3e2_5d0d_abf9_46ea4dd94774
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="tekniker_139b71f3_65f4_5279_99c8_e61ad55fb3ae"></div>
+
+WaitTime
+--------
+
+* https://w3id.org/tekniker/public/ontology#tekniker_139b71f3_65f4_5279_99c8_e61ad55fb3ae
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+
+    
+        
