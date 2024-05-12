@@ -19,6 +19,10 @@ CoatArea
 
   <table class="element-table">
   <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Coated area (cm)</td>
+  </tr>
+  <tr>
   <td class="element-table-key"><span class="element-table-key">Comment</span></td>
   <td class="element-table-value">area unit incorrect in elucidation?</td>
   </tr>
@@ -37,6 +41,10 @@ FinPos
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Final position (mm)</td>
+  </tr>
   </table>
 
 
@@ -52,6 +60,10 @@ Gap
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Gap (mm)</td>
+  </tr>
   </table>
 
 
@@ -67,6 +79,10 @@ HeadPos
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Head position (mm)</td>
+  </tr>
   </table>
 
 
@@ -82,6 +98,10 @@ IniPos
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Initial Position (mm)</td>
+  </tr>
   </table>
 
 
@@ -97,6 +117,10 @@ LinSpeed
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Lineal speed (mm/min)</td>
+  </tr>
   </table>
 
 
@@ -112,6 +136,10 @@ MaxTime
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Test maximun time (s)</td>
+  </tr>
   </table>
 
 
@@ -127,6 +155,10 @@ Shim
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Shims (mm)</td>
+  </tr>
   </table>
 
 
@@ -142,6 +174,10 @@ Switch
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Switch off time (s) </td>
+  </tr>
   </table>
 
 
@@ -157,6 +193,10 @@ SyrFlow
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Syringe flow rate (ml/h)</td>
+  </tr>
   </table>
 
 
@@ -172,6 +212,10 @@ Tension
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Tension (N)</td>
+  </tr>
   </table>
 
 
@@ -187,6 +231,10 @@ TreatPos
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Final position of treatment (mm)</td>
+  </tr>
   </table>
 
 
@@ -202,6 +250,10 @@ Vaccum
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Vacumm </td>
+  </tr>
   </table>
 
 
@@ -217,6 +269,10 @@ WaitTime
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">Waiting time (s)</td>
+  </tr>
   </table>
 
 
