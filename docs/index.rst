@@ -3,10 +3,10 @@
    :includehidden:
    :hidden:
 
-   Class Index <techniker>
+   Class Index <pages/tekniker>
 
 
-SKZ Ontology
+TEKNIKER Ontology
 ================================
 
-Welcome to the **SKZ Ontology**, a semantic resource with essential terms and relationships to describe SKZ resources.
+Welcome to the **TEKNIKER Ontology**, a semantic resource with essential terms and relationships to describe TEKNIKER resources.
