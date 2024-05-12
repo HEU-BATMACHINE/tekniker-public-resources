@@ -3,7 +3,7 @@
    :includehidden:
    :hidden:
 
-   Class Index <skz-ontology>
+   Class Index <techniker>
 
 
 SKZ Ontology
