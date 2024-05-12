@@ -159,7 +159,7 @@ def rendering_workflow():
 
     rst += render_rst_bottom()
 
-    with open("./docs/"+ rst_filename, "w+", encoding="utf-8") as f:
+    with open("./docs/pages/"+ rst_filename, "w+", encoding="utf-8") as f:
         f.write(rst)
 
 
