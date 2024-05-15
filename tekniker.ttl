@@ -171,9 +171,8 @@
                                                                  owl:onProperty <https://w3id.org/emmo#EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569> ;
                                                                  owl:someValuesFrom <https://w3id.org/emmo#SquareCentiMetre>
                                                                ] ;
-                                               rdfs:comment "area unit incorrect in elucidation?"@en ;
                                                skos:prefLabel "CoatArea"@en ;
-                                               <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Coated area (cm)"@en .
+                                               <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Coated area"@en .
 
 
 ###  https://w3id.org/tekniker/public/ontology#tekniker_7d482903_3547_5879_b770_8f91cc5f8a7d
