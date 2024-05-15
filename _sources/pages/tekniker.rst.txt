@@ -20,11 +20,7 @@ CoatArea
   <table class="element-table">
   <tr>
   <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
-  <td class="element-table-value">Coated area (cm)</td>
-  </tr>
-  <tr>
-  <td class="element-table-key"><span class="element-table-key">Comment</span></td>
-  <td class="element-table-value">area unit incorrect in elucidation?</td>
+  <td class="element-table-value">Coated area</td>
   </tr>
   </table>
 
