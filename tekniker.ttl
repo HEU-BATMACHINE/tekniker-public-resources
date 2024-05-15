@@ -16,7 +16,7 @@
                                              dcterms:contributor "SINTEF"@en ,
                                                                  "SINTEF Industry"@en ;
                                              dcterms:creator "Sridevi Krishnamurthi, Simon Clark"@en ;
-                                             dcterms:title "Slot Die Coater-TEKNIKER domain ontology"@en ;
+                                             dcterms:title "TEKNIKER application ontology"@en ;
                                              owl:versionInfo "0.1.0-beta" .
 
 #################################################################
