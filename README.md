@@ -10,4 +10,4 @@ Researchers, engineers, and stakeholders involved in battery manufacturing proce
 - Standardize terminology for machinery-generated data  
 - Integrate heterogeneous data sources  
 - Enable semantic search and reasoning over machinery-generated data  
-- Facilitate the development of data-driven analytics and decision support systems.
+- Facilitate the development of data-driven analytics and decision support systems
